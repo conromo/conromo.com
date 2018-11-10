@@ -1,7 +1,6 @@
 /************************************************
-Theme Name: DO - Corporate Business Template
+Theme Name: Corporate Business Template
 Author: Mamun Chowdhury
-Author URI: http://mamunchowdhury.com
 Version: 2.0
 ************************************************ */
 
@@ -719,7 +718,7 @@ SKILLBAR
 .do-parallax-page-title-section{
     padding: 175px 0;
     position: relative;
-    background: url(../images/banner.png) no-repeat center;
+    /*background: url(../images/banner.png) no-repeat center;*/
     -webkit-background-size: cover;
             background-size: cover;
 }
@@ -6129,6 +6128,7 @@ CONTACT SECTION
 .do-mission-heading {
     text-transform: uppercase;
     border-left: 4px solid #e84b3a;
+    margin-top: 50px;
 }
 .heading-mission {
     margin-left: 10px;
@@ -6136,28 +6136,20 @@ CONTACT SECTION
     font-weight: bold;
     color: black;
 }
-.do-mission-paragraph {
-    text-align: justify;
+#typed {
+    padding-left: 40px;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    color: #E84B3A;
+}
+.do-mission-description {
+    padding-left: 15px;
+    font-size: 14px;
 }
 .do-mission-vision {
     margin-top: 50px;
-    margin-bottom: 50px;
 }
-.do-under-service {
-    margin-left: 35px;
-}
-.do-all-service {
-    margin-top: 30px;
-}
-.do-under-service-list {
-    border-left: 3px solid #e84b3a;
-    margin-bottom: 8px;
-}
-.do-service-list-text {
-    margin-left: 7px;
-    letter-spacing: 2px;
-}
-.do-video {
-    height: 350px;
-    /*width: 100%;*/
+.do-service-wrapper {
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
