@@ -1,13 +1,6 @@
 jQuery(document).ready(function(){
 	"use strict";
-    var typed = new Typed('#typed', {
-        stringsElement: '#typed-strings',
-		typeSpeed: 100,
-		backSpeed: 100,
-		backDelay: 1000,
-        loop: false,
-        loopCount: Infinity,
-    });
+
 
 /* ------------------------------------------------------------------
                 PRELOADER                     
@@ -17,7 +10,7 @@ jQuery(window).load(function() {
         // will first fade out the loading animation
     jQuery(".status").fadeOut();
         // will fade out the whole DIV that covers the website.
-    jQuery(".preloader").delay(1000).fadeOut("slow");
+    jQuery(".preloader").delay(500).fadeOut("slow");
 });
 
 
