@@ -528,7 +528,7 @@ $( '#do-homeone-slider' ).sliderPro({
     waitForLayers: false,
     buttons: false,
     autoplay: true,
-    autoplayDelay: 12000,
+    autoplayDelay: 6000,
     autoplayOnHover: 'none',
     autoScaleLayers: false,
     slideAnimationDuration: 2000
