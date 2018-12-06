@@ -153,7 +153,7 @@ SLIDER
 CUSTOM SECTION WITH IMAGE
 ************/
 .do-custom-section-with-img {
-  background-color: #f9f9f9;
+  /*background-color: #f9f9f9;*/
   padding: 90px 0;
 }
 
@@ -388,11 +388,11 @@ NAVIGATION MENU
 }
 
 .navbar-toggle .icon-bar{
-	background-color: #fc7f0c;
+	background-color: #cf4c4a;
 	border-radius: 1px;
 	display: block;
 	height: 3px;
-	width: 13px;
+	width: 15px;
 }
 
 .navbar-toggle .icon-bar + .icon-bar {
@@ -615,7 +615,7 @@ ICON WITH TEXT
 CUSTOM SECTION WITH IMAGE
 ************/
 .do-custom-section-with-img {
-  background-color: #f9f9f9;
+  /*background-color: #f9f9f9;*/
   padding: 50px 0;
 }
 
@@ -1127,7 +1127,9 @@ SIDE MENU
 .do-side-menu-widget-wrap .do-side-menu-menu-wrap {
   height: 165px;
 }
-
+.footer-logo-responsive {
+  max-width: 30%;
+}
 /********
 SERVICE
 ********/
