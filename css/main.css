@@ -375,7 +375,7 @@ DO LIST ITEM WITH ICON
 ul.do-icon-list li{
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
-    color: #888888;
+    color: #3e3e2c;
     margin-bottom: 10px;
     position: relative;
     padding-left: 30px;
@@ -402,7 +402,9 @@ ul.do-icon-list li i{
 ul.do-icon-list li i:before{
     padding-left: 1px;
 }
-
+.navbar-nav > li > a {
+    text-shadow: none;
+}
 /***************
 DO COLOR TEXT
 ***************/
@@ -456,7 +458,7 @@ DO ICON WITH TEXT (STYLE 1)
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 700;
-    color: #000;
+    color: #3e3e2c;
     margin-bottom: 15px;
     margin-top: 0;
     text-transform: uppercase;
@@ -467,7 +469,7 @@ DO ICON WITH TEXT (STYLE 1)
 }
 
 .do-icon-with-text-style1 p{
-    color: #888888;
+    color: #3e3e2c;
     margin-bottom: 0;
 }
 
@@ -650,7 +652,7 @@ SKILLBAR
 .do-skillbar p span{
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
-    color: #888888;
+    color: #696855;
     letter-spacing: 3px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -821,14 +823,26 @@ SKILLBAR
     background-color: #f15b44;
     z-index: 999;
 }
+.service-item-one:hover .circle-line {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.7s;
+    background: #fff1d0;
+    color: #b8261b;
+
+}
+.circle-line {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    border: 2px solid #fff1d0;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all ease-in-out 0.7s;
+}
 .video-production {
     color: #fff1d0;
-    font-size: 45px;
-    line-height: 4;
-}
-.title {
-    color: grey;
-    font-size: 18px;
+    font-size: 40px;
+    line-height: 2.3;
 }
 .service-title {
     font-family: "Open Sans", sans-serif;
@@ -873,7 +887,7 @@ SKILLBAR
 .do-normal-page-title-section .do-default-page-title h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
-    color: #000;
+    color: #3e3e2c;
     margin: 0;
     text-transform: uppercase;
     margin-bottom: 7px;
@@ -882,7 +896,7 @@ SKILLBAR
 .do-normal-page-title-section .do-default-page-title p{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    color: #c0c0c0;
+    color: #696855;
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -923,10 +937,10 @@ BREADCUMB
 }
 
 .do-normal-page-title-section .do-breadcumb ul li:after{
-    content: '/';
+    content: ' |';
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
-    color: #c0c0c0;
+    color: #696855;
 }
 
 .do-normal-page-title-section .do-breadcumb ul li:last-child{
@@ -940,7 +954,7 @@ BREADCUMB
 .do-normal-page-title-section .do-breadcumb ul li a{
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
-    color: #c0c0c0;
+    color: #696855;
     letter-spacing: 2px;
     padding: 0;
     display: inline-block;
@@ -960,7 +974,7 @@ BREADCUMB
 .do-normal-page-title-section .do-breadcumb ul li span{
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
-    color: #c0c0c0;
+    color: #696855;
     letter-spacing: 2px;
     padding: 0;
     display: inline-block;
@@ -1350,7 +1364,7 @@ p,li,a,span,input{
     font-size: 13px;
     font-weight: 400;
     line-height: 22px;
-    color: #888888;
+    color: #3e3e2c;
 }
 
 /************************* End **************************/
@@ -1369,7 +1383,7 @@ p,li,a,span,input{
     min-height: 60px;
     border: 0px;
     padding: 5px 0;
-    background-color: #3e3e2c;
+    background-color: #191801;
     position: relative;
     z-index: 99;
     width: 100%;
@@ -1436,7 +1450,7 @@ ul.do-menus li a{
 ul.do-menus li a:hover,
 ul.do-menus li.active a{
     background-color: transparent;
-    color: #ff7d76;
+    color: #F95738;
 }
 
 ul.do-menus li a:focus{
@@ -1497,7 +1511,7 @@ DROPDOWN MENU
     content: '\e649';
     font-family: 'themify';
     font-size: 10px;
-    color: #888888;
+    /*color: #888888;*/
     position: absolute;
     right: 20px;
     top: 15px;
@@ -1567,7 +1581,7 @@ DROPDOWN MENU
 
 /* Minified Menu */
 .do-main-menu.minified{
-    background-color: #3e3e2c;
+    background-color: #191801;
     padding: 0;
     position: fixed;
 }
@@ -1905,7 +1919,7 @@ MENU
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 700;
-    color: #ffffff;
+    /*color: #ffffff;*/
     text-transform: uppercase;
     padding: 0;
     display: inline-block;
@@ -2123,7 +2137,7 @@ DROPDOWN MENU
     *zoom: 1;
     white-space: nowrap;
     clear: both;
-    color: #888888;
+    /*color: #888888;*/
     font-weight: 600;
 }
 
@@ -2258,7 +2272,7 @@ DROPDOWN MENU
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     font-weight: 600;
-    color: #000;
+    color: #3e3e2c;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -2280,7 +2294,7 @@ DROPDOWN MENU
 }
 
 .do-main-slider p.do-slider-text-small .do-color-text{
-    color: #e84b3a;
+    color: #F95738;
     font-size: 17px;
     font-weight: 600;
 }
@@ -2529,6 +2543,7 @@ DROPDOWN MENU
     color: #c1c1c1;
 }
 .do-why-heading {
+    color: #3e3e2c;
     margin-bottom: 20px;
 }
 .feature-text-alignment {
@@ -2682,48 +2697,6 @@ DROPDOWN MENU
     text-align: center;
     padding-bottom: 60px;
 }
-/*this is for the 3d flip portfolio*/
-/*.flip-box {*/
-    /*background-color: transparent;*/
-    /*width: 100%;*/
-    /*height: 200px;*/
-    /*border: 1px solid #f1f1f1;*/
-    /*perspective: 1000px;*/
-/*}*/
-/*.portfolio-work-one {*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-/*}*/
-/*.flip-box-inner {*/
-    /*position: relative;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*text-align: center;*/
-    /*transition: transform 0.8s;*/
-    /*transform-style: preserve-3d;*/
-/*}*/
-
-/*.flip-box:hover .flip-box-inner {*/
-    /*transform: rotateX(180deg);*/
-/*}*/
-
-/*.flip-box-front, .flip-box-back {*/
-    /*position: absolute;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*backface-visibility: hidden;*/
-/*}*/
-
-/*.flip-box-front {*/
-    /*background-color: transparent;*/
-    /*color: black;*/
-/*}*/
-
-/*.flip-box-back {*/
-    /*background: rgba(0, 0, 0, .6);*/
-    /*color: white;*/
-    /*transform: rotateX(180deg);*/
-/*}*/
 .image-container {
     position: relative;
     width: 100%;
@@ -2762,18 +2735,10 @@ DROPDOWN MENU
                     CUSTOM SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-custom-section-with-img{
-    /*background-color: #373737;*/
     padding: 100px 0;
 }
 .do-homepage-one {
     background-color: #fbfae4;
-}
-/*.do-custom-section-with-img {*/
-    /*background-color: #fbfae4;*/
-/*}*/
-.do-homepage-one .do-custom-section-with-img{
-    /*background-color: #FEE0C6;*/
-    /*padding: 100px 0;*/
 }
 
 .do-custom-section-with-img .row{
@@ -2867,7 +2832,7 @@ DROPDOWN MENU
 .do-custom-section-three h3{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    color: #000;
+    color: #3e3e2c;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 0;
@@ -3013,14 +2978,17 @@ DROPDOWN MENU
                     TEAM SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .do-Culture-heading {
+    font-family: "Open Sans";
     text-transform: uppercase;
     margin-bottom: 28px;
+    color: #3e3e2c;
+    font-size: 24px;
 }
 
 .do-who-heading {
     font-family: 'Open sans';
     letter-spacing: 1px;
-    color: #c5222d;
+    color: #3e3e2c;
     text-transform: uppercase;
     margin-bottom: 30px;
     font-size: 24px;
@@ -3028,17 +2996,16 @@ DROPDOWN MENU
 }
 .do-environment {
     text-align: justify;
-    color: #0b0b0b;
+    color: #3e3e2c;
     font-size: 1em;
 }
 .do-who-des {
     text-align: justify;
-    color: #0b0b0b;
+    color: #3e3e2c;
     font-size: 1em;
 }
 
 .do-team-section{
-    /*background: url(../images/shadow-top.png) no-repeat center top;*/
     background-color: #fbfae4;
     -webkit-background-size: 100%;
     background-size: 100%;
@@ -3429,18 +3396,6 @@ HOVER
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                 FEATURE WITH IMAGE
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-.do-features-with-img-section-wrapper{
-    position: relative;
-    padding-bottom: 60px;
-    background: url(../images/image-normal.jpg) no-repeat center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-            background-size: cover;
-}
-
-.do-features-with-img-wrapper .do-icon-with-text-style-2{
-
-}
 
 .do-features-with-img-wrapper .do-icon-with-text-style-2 .do-icon-wrapper{
     background-color: rgba(255,255,255,0.15);
@@ -3489,15 +3444,6 @@ MORE BLOG POST BTN
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     COUNTER SECTION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-.do-homepage-2nd .do-counter-section{
-    background: url(../images/image-normal.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    position: relative;
-    -webkit-background-size: cover;
-            background-size: cover;
-}
 
 .do-homepage-2nd .do-counter-section .do-counter-items i{
     color: #ffffff;
@@ -4494,7 +4440,17 @@ POST TITLE & EXCERPT
     padding: 60px 0 100px;
     overflow: hidden;
 }
-
+.type-wrapper{
+    margin: 50px 0 450px;
+    color: #3e3e2c;
+}
+.typewriter-cursor {
+    font-size: 30px;
+}
+.typewriter-char {
+    font-size: 30px;
+    text-align: center;
+}
 /***************
 FILTER BUTTON
 ***************/
@@ -5287,7 +5243,7 @@ footer.do-footer .do-footer-bottom a.do-footer-author-name{
     margin-left: 10%;
 }
 footer.do-footer .do-footer-bottom a.do-footer-author-name:hover{
-    color: #cf4c4a;
+    color: #F95738;
     transition: .3s;
     -webkit-transition: all .3s;
        -moz-transition: all .3s;
