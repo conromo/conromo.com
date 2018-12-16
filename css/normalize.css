@@ -199,7 +199,7 @@ hr {
 
 mark {
     background: #ff0;
-    color: #000;
+    color: #3e3e2c;
 }
 
 /**
@@ -533,25 +533,25 @@ table {
 
 /* Place Holder CSS */
 ::-webkit-input-placeholder {
-    color: #000000;
+    color: #3e3e2c;
     opacity: 0.5;
     -webkit-transition: opacity 0.35s ease-in-out;
     transition: opacity 0.35s ease-in-out;
 }
 :-moz-placeholder {
-    color: #000000;
+    color: #3e3e2c;
     opacity: 0.5;
     -moz-transition: opacity 0.35s ease-in-out;
     transition: opacity 0.35s ease-in-out;
 }
 ::-moz-placeholder {
-    color: #000000;
+    color: #3e3e2c;
     opacity: 0.5;
     -moz-transition: opacity 0.35s ease-in-out;
     transition: opacity 0.35s ease-in-out;
 }
 :-ms-input-placeholder {
-    color: #000000;
+    color: #3e3e2c;
     opacity: 0.5;
     -ms-transition: opacity 0.35s ease-in-out;
     transition: opacity 0.35s ease-in-out;

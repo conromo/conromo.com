@@ -132,11 +132,23 @@ SLIDER
 /**************************************************************************
                                 # HOME PAGE #
 **************************************************************************/
-.do-main-menu.minified .navbar-nav li:hover ul.sub-menu {
+  /***********************************************
+
+                Responsive for the slider
+
+  **************************************************/
+
+
+
+  .do-main-menu.minified .navbar-nav li:hover ul.sub-menu {
     opacity:1;
     visibility:visible;
     top: 100%;
 }
+  .career-image {
+    text-align: center;
+  }
+
 
 .do-side-menu-button {
   right: 20px;
@@ -189,7 +201,7 @@ TEEAM SECTION
 SOCIAL LINK
  */
 .do-social-link-section a {
-  border-right: 1px solid #333333;
+  border-right: 1px solid #696855;
   float: left;
   padding: 50px 0;
   text-align: center;
@@ -388,7 +400,7 @@ NAVIGATION MENU
 }
 
 .navbar-toggle .icon-bar{
-	background-color: #F95738;
+	background-color: #F25424;
 	border-radius: 1px;
 	display: block;
 	height: 3px;
@@ -687,8 +699,8 @@ VIDEO SECTION
 SOCIAL ICON
 ************/
 .do-social-link-section a {
-  border-right: 0px solid #333333;
-  border-bottom: 1px solid #333333;
+  border-right: 0px solid #696855;
+  border-bottom: 1px solid #696855;
   float: none;
   padding: 20px 30px;
   text-align: left;
@@ -1118,108 +1130,103 @@ SLIDER
 /* Wide Mobile Layout: 480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-/**************************************************************************
-                                # HOME PAGE (ONE) #
-**************************************************************************/
-/**********
-SIDE MENU
-**********/
-.do-side-menu-widget-wrap .do-side-menu-menu-wrap {
-  height: 165px;
-}
-.footer-logo-responsive {
-  max-width: 30%;
-}
-/********
-SERVICE
-********/
-.do-sevice-section .do-service-container {
-  float: left;
-  width: 50%;
-}
+  /**************************************************************************
+                                  # HOME PAGE (ONE) #
+  **************************************************************************/
+  /**********
+  SIDE MENU
+  **********/
+  .do-side-menu-widget-wrap .do-side-menu-menu-wrap {
+    height: 165px;
+  }
 
-/********
-WORK
-********/
-.do-work-item {
-  width: 50%;
-}
+  .footer-logo-responsive {
+    max-width: 30%;
+  }
 
-.do-work-item-inner-wrap {
-  height: auto;
-  overflow: hidden;
-  position: relative;
-}
+  /********
+  SERVICE
+  ********/
+  .do-sevice-section .do-service-container {
+    float: left;
+    width: 50%;
+  }
 
-/**************************************************************************
-                                # PORTFOLIO 2,3,4, WITH SPACE#
-**************************************************************************/
+  /********
+  WORK
+  ********/
+  .do-work-item {
+    width: 50%;
+  }
 
-/* 1PX SPACE */
-.do-portfolio-one-px .do-work-item{
+  .do-work-item-inner-wrap {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /**************************************************************************
+                                  # PORTFOLIO 2,3,4, WITH SPACE#
+  **************************************************************************/
+  /* 1PX SPACE */
+  .do-portfolio-one-px .do-work-item {
     width: 50%;
     padding-left: 0.5px;
     padding-right: 0.5px;
     margin-bottom: 1px;
-}
+  }
 
-/* 2 COLUMN */
-.do-work-item-2col .do-work-item{
+  /* 2 COLUMN */
+  .do-work-item-2col .do-work-item {
     width: 50%;
     padding-left: 0.5px;
     padding-right: 0.5px;
-}
+  }
 
-/* 3 COLUMN */
-.do-work-item-3col .do-work-item{
+  /* 3 COLUMN */
+  .do-work-item-3col .do-work-item {
     width: 50%;
     padding-left: 0.5px;
     padding-right: 0.5px;
-}
+  }
 
-/* 4 COLUMN */
-.do-work-item-4col .do-work-item{
+  /* 4 COLUMN */
+  .do-work-item-4col .do-work-item {
     width: 50%;
     padding-left: 0.5px;
     padding-right: 0.5px;
-}
+  }
 
-/* WITH SPACE */
-.do-work-item-withspace .do-work-item{
+  /* WITH SPACE */
+  .do-work-item-withspace .do-work-item {
     width: 50%;
     padding-left: 5px;
     padding-right: 5px;
     height: auto;
     margin-bottom: 10px;
-}
+  }
 
-/**************************************************************************
-                                # HOME PAGE (four) #
-**************************************************************************/
-.do-header-topbar .do-topbar-content-wrap {
-  display: block;
-  float: none;
-  overflow: hidden;
-  text-align: center;
-  width: 100%;
-}
+  /**************************************************************************
+                                  # HOME PAGE (four) #
+  **************************************************************************/
+  .do-header-topbar .do-topbar-content-wrap {
+    display: block;
+    float: none;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+  }
 
-.do-header-topbar .do-topbar-content-wrap.do-topbar-content-left ul {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-}
+  .do-header-topbar .do-topbar-content-wrap.do-topbar-content-left ul {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+  }
 
-.do-portfolio-square .do-work-item {
-  height: 220px;
-  overflow: hidden;
-  width: 50%;
-}
-
-
-
-
-
-
+  .do-portfolio-square .do-work-item {
+    height: 220px;
+    overflow: hidden;
+    width: 50%;
+  }
 
 }
