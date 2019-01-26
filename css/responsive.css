@@ -137,8 +137,11 @@ SLIDER
                 Responsive for the slider
 
   **************************************************/
+  .do-logo {
+    margin: -8px auto;
+  }
 
-
+  /* menu bar */
 
   .do-main-menu.minified .navbar-nav li:hover ul.sub-menu {
     opacity:1;
@@ -567,13 +570,13 @@ SIDE MENU BTN
 /************
 SLIDER
 ************/
-.do-main-slider h1.do-slider-text-big {
+/* .do-main-slider h1.do-slider-text-big {
   font-size: 36px;
 }
 
 .do-main-slider p.do-slider-text-small {
   font-size: 14px;
-}
+} */
 
 /************
 SERVICE
@@ -1133,6 +1136,13 @@ SLIDER
   /**************************************************************************
                                   # HOME PAGE (ONE) #
   **************************************************************************/
+  /* main logo  */
+  .do-logo {
+    margin: -8px auto;
+  }
+
+
+
   /**********
   SIDE MENU
   **********/

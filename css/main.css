@@ -2296,33 +2296,28 @@ DROPDOWN MENU
 
 .do-main-slider h1.do-slider-text-big{
     font-family: 'Open Sans';
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 500;
     color: #3e3e2c;
     margin-top: 0;
     margin-bottom: 0;
 }
-
-/* .do-main-slider h1.do-slider-2nd-text{
-    font-size: 33px;
-    font-weight: 700;
-} */
-
-.do-main-slider p.do-slider-text-small{
+/* .do-main-slider p.do-slider-text-small{
     font-family: 'Open Sans';
     font-size: 17px;
     font-weight: 400;
     color: #696855;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-top: 0;
     margin-bottom: 0;
 
-}
+} */
 
 .do-main-slider p.do-slider-text-small .do-color-text{
     color: #F25424;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 
