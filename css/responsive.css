@@ -1143,10 +1143,11 @@ SLIDER
     margin: -8px auto;
   }
   .imageSeparator {
-    margin-top: 50%;
+    margin-top: 30%;
+    margin-left: -10px;
   }
   .do-main-slider h1.do-slider-text-big {
-    font-size: 20px;
+    font-size: 1.6rem;
   }
   .do-main-slider p.do-slider-text-small .do-color-text {
     font-size: 13px;
