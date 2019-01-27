@@ -1142,7 +1142,15 @@ SLIDER
   .do-logo {
     margin: -8px auto;
   }
-
+  .imageSeparator {
+    margin-top: 50%;
+  }
+  .do-main-slider h1.do-slider-text-big {
+    font-size: 20px;
+  }
+  .do-main-slider p.do-slider-text-small .do-color-text {
+    font-size: 13px;
+  }
 
 
   /**********
