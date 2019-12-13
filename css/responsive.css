@@ -22,20 +22,6 @@ SLIDER
     top: -105px !important;
 }
 
-.do-keyboard-img{
-    width: 21% !important;
-}
-
-.do-earphone-img{
-    width: 9% !important;
-    top: 455px !important;
-  }
-
-.do-coffe-cup-img{
-    top: 540px !important;
-    right: 8.3% !important;
-}
-
 .do-arrow-img{
   bottom: 230px !important;
 }
@@ -48,7 +34,12 @@ SLIDER
 .do-portfolio-slider-section .do-work-item{
     height: 280px;
 }
-
+.do-main-slider h1.do-slider-text-big {
+  font-size: 34px !important;
+}
+.do-main-slider p.do-slider-text-small .do-color-text {
+  font-size: 21px !important;
+}
 
 }
 
